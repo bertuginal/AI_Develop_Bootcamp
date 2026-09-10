@@ -1,4 +1,5 @@
 """
+=== SUPERVİSED LEARNING - Denetimli Öğrenme (Features(+), Label(+)) ===
 Bir öğrencinin:
 1-) Günlük çalışma saati
 2-) Derse katılım yüzdesi
@@ -17,7 +18,7 @@ def main():
 
     # 1. parametre: Günlük Çalışma Saati
     # 2. parametre: Derse Katılım Yüzdesi
-    x = np.array([
+    X = np.array([
         [1, 30],
         [2, 40],
         [2, 50],
@@ -46,25 +47,25 @@ def main():
 
     print("=== SUPERVISED LEARNING (Features(+), Label(+)) ===")
     print("\nX - Öğrenci Özellikler(Features)")
-    print(x)
+    print(X)
 
     print("\ny - Label(Etiketler)")
     print(y)
 
 
     model = LogisticRegression() # Boş YZ Beyni
-    model.fit(x,y) # Model Eğitimi
+    model.fit(X,y) # Model Eğitimi
 
     # Örnek: Öğrenci 6 saat çalışıyor, Derse katılım %80
     new_student = np.array([[6, 80]])
     prediction = model.predict(new_student)[0]
     probabilities = model.predict_proba(new_student)[0]
 
-    print("\nYeni Öğrenci")
+    print("\nYENİ ÖĞRENCİ")
     print("Çalışma Saati: 6 saat")
     print("Derse katılım: %80")
 
-    print("\nModel tahmini:", prediction)
+    print("\nModel Tahmini:", prediction)
 
     if prediction == 1:
         print("Öğrencinin sınavdan GEÇMESİ bekleniyor.")
