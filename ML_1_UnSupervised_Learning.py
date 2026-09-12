@@ -7,8 +7,7 @@ Müşterilerin:
 bu bilgilere bakarak müşterileri 3 gruba ayıracağız.
 
 Ancak modele:
-Bu müşteri A grubundadır
-Bu müşteri B grubundadır gibi hiç bir dorğu cevap vermesin.
+Bu müşteri A grubundadır, bu müşteri B grubundadır gibi hiç bir doğru cevap vermesin.
 
 """
 
@@ -18,8 +17,8 @@ from sklearn.preprocessing import StandardScaler
 
 def main():
 
-    # 1. parametre: Yıllık Gelir
-    # 2. parametre: Aylık Harcama
+    # 1. değer: Yıllık Gelir
+    # 2. değer: Aylık Harcama
     X = np.array([
         [20, 10],
         [22, 12],

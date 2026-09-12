@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="597d4237-6e07-40fa-8f3c-266be9f1f0f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ML_1_UnSupervised_Learning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Odevler/Odev_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ML_0_Supervised_Learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_0_Supervised_Learning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML_1_UnSupervised_Learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_1_UnSupervised_Learning.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.ML_0_Supervised_Learning (1).executor": "Run",
     "Python.ML_1_UnSupervised_Learning.executor": "Run",
+    "Python.Odev_1.executor": "Run",
     "Python.Supervised_Learning (1).executor": "Run",
     "Python.Supervised_Learning.executor": "Run",
     "Python.main (1).executor": "Run",
@@ -85,10 +88,11 @@
       <recent name="C:\Users\bertu\PycharmProjects\PythonProject1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bertu\PycharmProjects\PythonProject1\Odevler" />
       <recent name="C:\Users\bertu\PycharmProjects\PythonProject1\odevler" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ML_1_UnSupervised_Learning">
+  <component name="RunManager" selected="Python.Odev_1">
     <configuration name="ML_0_Supervised_Learning (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject1" />
       <option name="ENV_FILES" value="" />
@@ -164,6 +168,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Odev_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="C:\Users\bertu\PycharmProjects\PythonProject1\Odevler\Odev_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Supervised_Learning (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject1" />
       <option name="ENV_FILES" value="" />
@@ -189,38 +218,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject1" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TechIstanbul_AI_Python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TechIstanbul_AI_Python/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Odev_1" />
         <item itemvalue="Python.ML_1_UnSupervised_Learning" />
         <item itemvalue="Python.ML_0_Supervised_Learning (1)" />
         <item itemvalue="Python.ML_0_Supervised_Learning" />
         <item itemvalue="Python.Supervised_Learning (1)" />
-        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +244,9 @@
       <updated>1788880144155</updated>
       <workItem from="1788887748221" duration="58000" />
       <workItem from="1789045609925" duration="7621000" />
-      <workItem from="1789054024645" duration="4621000" />
+      <workItem from="1789054024645" duration="5441000" />
+      <workItem from="1789211871973" duration="279000" />
+      <workItem from="1789215253012" duration="1035000" />
     </task>
     <servers />
   </component>
@@ -252,7 +258,8 @@
     <SUITE FILE_PATH="coverage/PythonProject1$ML_0_Supervised_Learning__1_.coverage" NAME="ML_0_Supervised_Learning (1) Coverage Results" MODIFIED="1789058233940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject1$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1789054249303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TechIstanbul_AI_Python" />
     <SUITE FILE_PATH="coverage/PythonProject1$Supervised_Learning__1_.coverage" NAME="Supervised_Learning (1) Coverage Results" MODIFIED="1789054262901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TechIstanbul_AI_Python" />
-    <SUITE FILE_PATH="coverage/PythonProject1$ML_1_UnSupervised_Learning.coverage" NAME="ML_1_UnSupervised_Learning Coverage Results" MODIFIED="1789058654208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$ML_1_UnSupervised_Learning.coverage" NAME="ML_1_UnSupervised_Learning Coverage Results" MODIFIED="1789211979520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$Odev_1.coverage" NAME="Odev_1 Coverage Results" MODIFIED="1789218199656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject1$Supervised_Learning.coverage" NAME="Supervised_Learning Coverage Results" MODIFIED="1789054831668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

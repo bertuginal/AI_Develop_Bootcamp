@@ -1,5 +1,6 @@
 """
 === SUPERVİSED LEARNING - Denetimli Öğrenme (Features(+), Label(+)) ===
+
 Bir öğrencinin:
 1-) Günlük çalışma saati
 2-) Derse katılım yüzdesi
@@ -16,8 +17,8 @@ from sklearn.linear_model import LogisticRegression
 
 def main():
 
-    # 1. parametre: Günlük Çalışma Saati
-    # 2. parametre: Derse Katılım Yüzdesi
+    # 1. değer: Günlük Çalışma Saati
+    # 2. değer: Derse Katılım Yüzdesi
     X = np.array([
         [1, 30],
         [2, 40],
