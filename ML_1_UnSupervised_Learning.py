@@ -17,8 +17,8 @@ from sklearn.preprocessing import StandardScaler
 
 def main():
 
-    # 1. değer: Yıllık Gelir
-    # 2. değer: Aylık Harcama
+    # 1. index: Yıllık Gelir
+    # 2. index: Aylık Harcama
     X = np.array([
         [20, 10],
         [22, 12],
@@ -35,6 +35,7 @@ def main():
 
     print("=== UNSUPERVISED LEARNING ===")
     print("\nMüşteri Verileri:")
+
     print(X)
 
 # --------------------------------------------

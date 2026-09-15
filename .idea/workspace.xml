@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="597d4237-6e07-40fa-8f3c-266be9f1f0f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Odevler/Odev_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="597d4237-6e07-40fa-8f3c-266be9f1f0f1" name="Changes" comment="Odev_1.py was added">
+      <change afterPath="$PROJECT_DIR$/ornek_email_spam.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ML_0_Supervised_Learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_0_Supervised_Learning.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ML_1_UnSupervised_Learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_1_UnSupervised_Learning.py" afterDir="false" />
@@ -50,49 +49,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.ML_0_Supervised_Learning (1).executor": "Run",
-    "Python.ML_1_UnSupervised_Learning.executor": "Run",
-    "Python.Odev_1.executor": "Run",
-    "Python.Supervised_Learning (1).executor": "Run",
-    "Python.Supervised_Learning.executor": "Run",
-    "Python.main (1).executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/bertu/PycharmProjects/PythonProject1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.ML_0_Supervised_Learning (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.ML_1_UnSupervised_Learning.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Odev_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Supervised_Learning (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Supervised_Learning.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bertu/PycharmProjects/PythonProject1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bertu\PycharmProjects\PythonProject1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bertu\PycharmProjects\PythonProject1" />
       <recent name="C:\Users\bertu\PycharmProjects\PythonProject1\Odevler" />
       <recent name="C:\Users\bertu\PycharmProjects\PythonProject1\odevler" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Odev_1">
+  <component name="RunManager" selected="Python.ML_1_UnSupervised_Learning">
     <configuration name="ML_0_Supervised_Learning (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject1" />
       <option name="ENV_FILES" value="" />
@@ -220,8 +220,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Odev_1" />
         <item itemvalue="Python.ML_1_UnSupervised_Learning" />
+        <item itemvalue="Python.Odev_1" />
         <item itemvalue="Python.ML_0_Supervised_Learning (1)" />
         <item itemvalue="Python.ML_0_Supervised_Learning" />
         <item itemvalue="Python.Supervised_Learning (1)" />
@@ -246,19 +246,35 @@
       <workItem from="1789045609925" duration="7621000" />
       <workItem from="1789054024645" duration="5441000" />
       <workItem from="1789211871973" duration="279000" />
-      <workItem from="1789215253012" duration="1035000" />
+      <workItem from="1789215253012" duration="1160000" />
+      <workItem from="1789383898629" duration="151000" />
+      <workItem from="1789384060054" duration="94000" />
+      <workItem from="1789477483788" duration="6050000" />
     </task>
+    <task id="LOCAL-00001" summary="Odev_1.py was added">
+      <option name="closed" value="true" />
+      <created>1789218380576</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1789218380576</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Odev_1.py was added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Odev_1.py was added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject1$main.coverage" NAME="main Coverage Results" MODIFIED="1789047793875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject1$ML_0_Supervised_Learning__1_.coverage" NAME="ML_0_Supervised_Learning (1) Coverage Results" MODIFIED="1789058233940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject1$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1789054249303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TechIstanbul_AI_Python" />
     <SUITE FILE_PATH="coverage/PythonProject1$Supervised_Learning__1_.coverage" NAME="Supervised_Learning (1) Coverage Results" MODIFIED="1789054262901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TechIstanbul_AI_Python" />
-    <SUITE FILE_PATH="coverage/PythonProject1$ML_1_UnSupervised_Learning.coverage" NAME="ML_1_UnSupervised_Learning Coverage Results" MODIFIED="1789211979520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject1$ML_1_UnSupervised_Learning.coverage" NAME="ML_1_UnSupervised_Learning Coverage Results" MODIFIED="1789384040873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject1$Odev_1.coverage" NAME="Odev_1 Coverage Results" MODIFIED="1789218199656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject1$Supervised_Learning.coverage" NAME="Supervised_Learning Coverage Results" MODIFIED="1789054831668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

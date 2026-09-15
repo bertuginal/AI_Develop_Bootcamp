@@ -17,8 +17,8 @@ from sklearn.linear_model import LogisticRegression
 
 def main():
 
-    # 1. değer: Günlük Çalışma Saati
-    # 2. değer: Derse Katılım Yüzdesi
+    # 1. index: Günlük Çalışma Saati
+    # 2. index: Derse Katılım Yüzdesi
     X = np.array([
         [1, 30],
         [2, 40],
