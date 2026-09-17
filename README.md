@@ -1,5 +1,21 @@
 # AI Learning - Eposta Spam Tahmini
-- Bu proje console üzerinden çalışan eğitim amaçlı bir Classfication uygulamasıdır
+Bu proje console üzerinden çalışan eğitim amaçlı bir Classfication uygulamasıdır. Console uygulamalarinda kullanici once CSV yukler, sonra temizleme yapar, sonra model egitir. Her adimda ayni veriyi tekrar tekrar okumak yerine programin mevcut durumunu burada sakliyoruz.
+- AppState sinifi program boyunca kullanilan verileri tek bir yerde tutar.
+## raw_df:
+CSV dosyasindan ilk okunan, dokunulmamis orijinal veri.
+
+## df:
+Temizleme ve analiz islemlerinde kullanilan aktif veri.
+
+## target_column:
+Tahmin edilmek istenen hedef sutun.
+
+## feature_columns:
+Modelin tahmin yaparken kullanacagi giris sutunlari.
+
+## best_model:
+Egitilen modeller arasinda F1 skoruna gore en basarili model.
+
 ---
 
 ## Github Link
