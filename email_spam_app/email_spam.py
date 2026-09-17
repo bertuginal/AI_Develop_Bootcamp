@@ -225,6 +225,29 @@ def choose_csv_path() -> Optional[Path]:
     return None
 
 
+#CSV dosyasını pandas DataFrame formatında okur.
+def read_csv_safely(path:Path) -> pd.DataFrame:
+    encodings =["utf-8-sig", "utf-8", "latin-1"]
+
+    last_error = None
+
+    for encoding in encodings:
+        try:
+            return pd.read_csv(
+                path,
+                sep = None, # Seperator: ',' ';' vb. pandas tarafından otomatik olarak tahmin etmesine yardımcı olur.
+                engine = "python",
+                encoding = encoding
+            )
+
+        except Exception as e:
+            last_error = e
+
+    raise RuntimeError(
+        f"CSV dosyası okunamadı!. Son hata: {last_error}"
+    )
+
+
 
 
 
