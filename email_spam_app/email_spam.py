@@ -135,6 +135,42 @@ def discover_cvs_files() -> List[Path]:
     return sorted(found, key = lambda p:p.name.lower())
 
 
+# Manuel olarak (Copy/Paste) veya dinamik olarak girilen dosya yolunu seçmek için kullanılır.
+def choose_csv_path() -> Optional[Path]:
+    print_header("CSV DOSYASINI SEÇ")
+    print_menu_option("0 - Ana menü")
+    print_menu_option("1 - Dosya yolunu yaz")
+    print_menu_option("2 - Dosya yolunu seç")
+
+    choice = input("\nSeçiminiz: ").strip()
+    if choice == "0":
+        return None
+
+    elif choice == "1":
+        raw_path = input(
+            "\nCSV dosyasının tam yolunu giriniz: "
+        ).strip().strip('"')
+
+        if not raw_path:
+            print("\nHATA: Dosya yolu boş bırakılamaz!")
+            return None
+
+        path = Path(raw_path).expanduser()
+
+        if not path.exists():
+            print("\nHATA: Girilen dosya yolu bulunamadı!")
+            return None
+
+        if not path.is_file():
+            print("\nHATA: Girilen yol doysa değil!")
+            return None
+
+        if not path.suffix.lower() != ".csv":
+            print("\nHATA: Girilen dosya CSV uzantılı değil!")
+            return None
+
+        print(f"\nSeçilen CSV Dosyası:\n{path.resolve()}")
+        return path.resolve()
 
 
 
