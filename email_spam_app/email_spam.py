@@ -146,7 +146,7 @@ def choose_csv_path() -> Optional[Path]:
     if choice == "0":
         return None
 
-    elif choice == "1":
+    if choice == "1":
         raw_path = input(
             "\nCSV dosyasının tam yolunu giriniz: "
         ).strip().strip('"')
@@ -155,6 +155,7 @@ def choose_csv_path() -> Optional[Path]:
             print("\nHATA: Dosya yolu boş bırakılamaz!")
             return None
 
+        #expanduser: Kullanıcının ana dizinini otomatik olarak gerçek klasör yoluna çevirmeye yarar.
         path = Path(raw_path).expanduser()
 
         if not path.exists():
@@ -171,6 +172,57 @@ def choose_csv_path() -> Optional[Path]:
 
         print(f"\nSeçilen CSV Dosyası:\n{path.resolve()}")
         return path.resolve()
+
+    if choice == "2":
+        # Kullanıcının fare ile dosya seçerek programa aktarılmasıdır.
+        try:
+            import tkinter as tk
+            from tkinter import filedialog
+
+            root = tk.Tk()
+            root.withdraw()
+
+            # Dosya seçme penceresinin arkada kalmasını engellemeye çalışır.
+            try:
+                root.attributes("-topmost", True)
+            except Exception:
+                pass
+
+            selected_file = filedialog.askopenfilename(
+                title="CSV Dosyasını Seç",
+                filetypes=[
+                    ("CSV Dosyaları", "*.csv"),
+                    ("Tüm Dosyalar", "*"),
+                ]
+            )
+
+            root.destroy()
+
+            if not selected_file:
+                print("\nDosya seçimi iptal edildi!")
+                return None
+
+            path = Path(selected_file)
+            if not path.exists():
+                print("\nHATA: Seçilen dosya bulunamadı!")
+                return None
+
+            if not path.suffix.lower() != ".csv":
+                print("\nHATA: Lütfen CSV uzantılı bir dosya seçiniz!")
+                return None
+
+            print(f"\nSeçilen CSV Dosyası:\n{path.resolve()}")
+            return path.resolve()
+
+        except ImportError:
+            print(
+                "\nHATA: Bu python sürümünde 'tkinter' kütüohanesi bulunamadı!"
+                "Alternatif olarak (1) dosya yolunu manuel olarak girebilirsiniz."
+            )
+            return None
+
+    print("\nHATA: 0 ≤ X ≤ 2 arasında tam sayı seçmelisiniz.")
+    return None
 
 
 
