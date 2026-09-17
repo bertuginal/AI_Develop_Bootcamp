@@ -74,10 +74,72 @@ def print_header(title: str) -> None:
     print(title)
     print("=" * 78)
 
+
 # Menü kullanıcının sonucu okuyabilmesi için ENTER tuşuna basmasını sağlar.
 def pause() -> None:
     input("\nDevam etmek için lütfen ENTER tuşuna basınız...")
 
+
 # Menü yazısını farklı renklerde kullanmamızı sağlar.
 def print_menu_option(text: str) -> None:
     print(Fore.LIGHTCYAN_EX + text + Style.RESET_ALL)
+
+
+# STEP başlıklarını menü seçeneklerinden ayırmak için parlak camgöbeği renkte gösterir.
+def print_step_title(text: str) -> None:
+    print(Fore.CYAN + Style.BRIGHT + text + Style.RESET_ALL)
+
+
+# CSV sütun adlarını daha düzenli hale getirmemizi sağlar. (KeliME Sayisı -> kelime_sayisi)
+def normalize_column_name(name: str) -> str:
+    value = str(name).replace("\ufeff", "").strip().lower()
+
+    replacements = {
+        "ç": "c",
+        "ğ": "g",
+        "ı": "i",
+        "ö": "o",
+        "ş": "s",
+        " ": "_",
+        "-": "_",
+        "/": "_",
+        "\\": "_",
+    }
+
+    for old, new in replacements.items():
+        value = value.replace(old, new)
+
+    while "__" in value:
+        value = value.replace("__", "_")
+
+    return value.strip("__")
+
+
+# Kullanıcının dosya seçebilmesi için CSV dosyalarını tarar ve sadece görünen CSV dosyalarını eklemeye (dinamik olarak seçmeye) yarar.
+def discover_cvs_files() -> List[Path]:
+    found: List[Path] = []
+
+    search_dirs = [
+        Path.cwd(),
+        Path.cwd() / "data"
+    ]
+
+    for folder in search_dirs:
+        if not folder.exists() or not folder.is_dir():
+            continue
+
+        for file_path in folder.glob("*.csv"):
+            resolved = file_path.resolve()
+            if resolved not in found:
+                found.append(resolved)
+    return sorted(found, key = lambda p:p.name.lower())
+
+
+
+
+
+
+
+
+
+
