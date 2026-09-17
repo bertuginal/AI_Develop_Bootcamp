@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="597d4237-6e07-40fa-8f3c-266be9f1f0f1" name="Changes" comment="updated email_spam project:&#10;choose_csv_path choise-2">
+    <list default="true" id="597d4237-6e07-40fa-8f3c-266be9f1f0f1" name="Changes" comment="updated email_spam project:&#10;read_csv_safely">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email_spam_app/email_spam.py" beforeDir="false" afterPath="$PROJECT_DIR$/email_spam_app/email_spam.py" afterDir="false" />
     </list>
@@ -276,7 +276,7 @@
       <workItem from="1789383898629" duration="151000" />
       <workItem from="1789384060054" duration="94000" />
       <workItem from="1789477483788" duration="10713000" />
-      <workItem from="1789649616183" duration="10531000" />
+      <workItem from="1789649616183" duration="12324000" />
     </task>
     <task id="LOCAL-00001" summary="Odev_1.py was added">
       <option name="closed" value="true" />
@@ -358,7 +358,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789659332083</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="updated email_spam project:&#10;read_csv_safely">
+      <option name="closed" value="true" />
+      <created>1789660571987</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1789660571987</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +381,8 @@
     <MESSAGE value="updated email_spam project:&#10;print_step_title&#10;normalize_column_name&#10;discover_cvs_files" />
     <MESSAGE value="updated email_spam project:&#10;choose_csv_path" />
     <MESSAGE value="updated email_spam project:&#10;choose_csv_path choise-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated email_spam project:&#10;choose_csv_path choise-2" />
+    <MESSAGE value="updated email_spam project:&#10;read_csv_safely" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated email_spam project:&#10;read_csv_safely" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject1$main.coverage" NAME="main Coverage Results" MODIFIED="1789047793875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
